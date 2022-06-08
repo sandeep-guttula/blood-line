@@ -6,8 +6,8 @@ function Result({closeResults}) {
   return (
     <>
         <Blur/>
-        <div className=' flex justify-center items-center h-[100vh] w-[100vw] absolute top-0'>
-            <div className='result-card justify-start items-center h-[35rem] w-[55rem] bg-white flex flex-col relative rounded-[30px]'>
+        <div className=' flex justify-center items-center h-[100vh] w-[100vw] absolute top-0 z-20'>
+            <div className='result-card justify-start items-center h-[35rem] w-[55rem] bg-white flex flex-col relative rounded-[30px]  border-2'>
                 <i class="fi fi-rr-cross absolute right-7 top-6 cursor-pointer" onClick={() => closeResults(false)}></i>
                 <div className='results flex flex-col'>
                     <form>

@@ -5,11 +5,11 @@ function Login({closeLogin}) {
   return (
       <>
         <Blur/>
-        <div className=' flex justify-center items-center h-[100vh] w-[100vw] absolute top-0'>
-            <div className=' h-[24rem] w-[22rem] bg-white flex items-center flex-col relative rounded-[30px] '>
+        <div className='flex justify-center items-center h-[100vh] w-[100vw] absolute top-0 z-20'>
+            <div className=' h-[24rem] w-[22rem] bg-white flex items-center flex-col relative rounded-[30px] border-4 '>
                 <i class="fi fi-rr-cross absolute right-7 top-6 cursor-pointer" onClick={() => closeLogin(false)}></i>
                 <div className='text-2xl font-bold px-14 mt-[3rem] w-[22rem]'>
-                    Hi.. Welcome to <br/>BloodLine
+                    Hi.. Welcome to <br/> BloodLine
                 </div>
                 <div className='px-14 mt-5'>
                     To get started please create an account by clicking the below button
